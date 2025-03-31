@@ -28,6 +28,6 @@ Ce projet est une **API** permettant de gérer un magasin en ligne simple avec l
 
 ## Installation
 
-1. Clonez ce repository :
+Clonez ce repository :
    ```bash
    git clone https://github.com/codeurluce/Node-js.git
