@@ -25,7 +25,6 @@ Ce projet est une **API** permettant de gérer un magasin en ligne simple avec l
 
 - **Node.js** : La version recommandée est la dernière version stable de Node.js.
 - **MongoDB** : Base de données pour stocker les informations des produits et des utilisateurs.
-- **Postman** ou **Insomnia** : Outils pour tester l'API.
 
 ## Installation
 
