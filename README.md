@@ -19,7 +19,7 @@ Ce projet est une **API** permettant de gérer un magasin en ligne simple avec l
 - Sécurisation des routes avec **JWT** (JSON Web Token).
 
 ### 3. Gestion des images :
-- Permet aux utilisateurs de télécharger une image pour chaque produit, et de récupérer l'URL de l'image. Cela inclut la configuration de l'upload des fichiers (par exemple, via Multer)
+- Permet aux utilisateurs de télécharger une image pour chaque produit, et de récupérer l'URL de l'image. Cela inclut la configuration de l'upload des fichiers (par exemple, via **Multer**)
 
 ## Prérequis
 
