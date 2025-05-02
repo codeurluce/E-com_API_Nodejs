@@ -98,6 +98,3 @@ Cette **API** permet de gérer un magasin en ligne simple, avec des fonctionnali
 ### 3. **Gestion des Images** 🖼️ :
 
 ---
-
-## A propos
-Ce projet d'API de magasin en ligne a été réalisé dans le cadre de mon apprentissage de Node.js, afin de mettre en pratique mes compétences en développement backend et en gestion d'API. il vient du cours 
