@@ -2,6 +2,8 @@
 
 Cette **API** permet de gérer un magasin en ligne simple, avec des fonctionnalités de gestion de produits, d'authentification des utilisateurs, et de téléchargement d'images pour les produits.
 
+---
+
 ## Fonctionnalités 🚀
 
 ### 1. **Gestion des Produits** 🏷️ :
@@ -21,12 +23,25 @@ Cette **API** permet de gérer un magasin en ligne simple, avec des fonctionnali
 * Permet aux utilisateurs de télécharger une image pour chaque produit.
 * Utilisation de **Multer** pour gérer l'upload des fichiers et obtenir l'URL de l'image pour chaque produit.
 
-## Prérequis 🛠️
+---
 
-* **Node.js** : La version recommandée est la dernière version stable.
-* **MongoDB** : Base de données pour stocker les produits et les utilisateurs.
-* **Multer** : Pour gérer l'upload des fichiers (images des produits).
-* **JWT** : Pour sécuriser l'accès aux routes protégées de l'API.
+## Technologies utilisées ⚙️
+
+* **Node.js** 💻
+* **Express.js** 🚀
+* **MongoDB** 🗄️
+* **JWT (JSON Web Token)** 🔐
+* **Multer** (pour le téléchargement d'images) 🖼️
+
+---
+
+## Objectifs d'apprentissage
+- créer un serveur web simple avec Express ;
+- créer une **API REST** avec **Node**, **Express** et **MongoDB** ;
+- mettre en place un système d'authentification sur une application Express ;
+- gérer des fichiers utilisateur sur une application Express.
+
+---
 
 ## Installation ⚙️
 
@@ -82,62 +97,7 @@ Cette **API** permet de gérer un magasin en ligne simple, avec des fonctionnali
 
 ### 3. **Gestion des Images** 🖼️ :
 
-* **POST /products/\:id/upload** : Télécharge une image pour un produit.
+---
 
-## Exemples de Requêtes 💻
-
-### Inscription :
-
-```bash
-POST /auth/register
-{
-  "email": "user@example.com",
-  "password": "password123"
-}
-```
-
-### Connexion :
-
-```bash
-POST /auth/login
-{
-  "email": "user@example.com",
-  "password": "password123"
-}
-```
-
-### Créer un produit :
-
-```bash
-POST /products
-Authorization: Bearer <JWT_TOKEN>
-{
-  "title": "Produit 1",
-  "description": "Description du produit",
-  "price": 99.99
-}
-```
-
-### Télécharger une image pour un produit :
-
-```bash
-POST /products/:id/upload
-Authorization: Bearer <JWT_TOKEN>
-Content-Type: multipart/form-data
-{
-  "image": <image_file>
-}
-```
-
-## Technologies utilisées ⚙️
-
-* **Node.js** 💻
-* **Express.js** 🚀
-* **MongoDB** 🗄️
-* **JWT (JSON Web Token)** 🔐
-* **Multer** (pour le téléchargement d'images) 🖼️
-
-## Contributions 🤝
-
-Les contributions sont les bienvenues ! Si vous avez des idées ou des améliorations à apporter, n'hésitez pas à ouvrir une **issue** ou à soumettre une **pull request**.
-
+## A propos
+Ce projet d'API de magasin en ligne a été réalisé dans le cadre de mon apprentissage de Node.js, afin de mettre en pratique mes compétences en développement backend et en gestion d'API. il vient du cours 
