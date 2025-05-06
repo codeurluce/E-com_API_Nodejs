@@ -54,7 +54,7 @@ Cette **API** permet de gérer un magasin en ligne simple, avec des fonctionnali
 1. Clonez ce repository :
 
    ```bash
-   git clone https://github.com/codeurluce/Node-js.git
+   git clone https://github.com/codeurluce/E-com_API_Nodejs
    ```
 
 2. Accédez au répertoire du projet :
