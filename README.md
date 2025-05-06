@@ -4,6 +4,12 @@ Cette **API** permet de gérer un magasin en ligne simple, avec des fonctionnali
 
 ---
 
+## 📸 Aperçu
+
+![Aperçu du site](ecom_img.png) 
+
+---
+
 ## Fonctionnalités 🚀
 
 ### 1. **Gestion des Produits** 🏷️ :
@@ -78,7 +84,7 @@ Cette **API** permet de gérer un magasin en ligne simple, avec des fonctionnali
    npm start
    ```
 
-   Par défaut, l'API sera accessible à `http://localhost:5000`.
+   Par défaut, l'API sera accessible à `http://localhost:3000`.
 
 ## Routes de l'API 📡
 
